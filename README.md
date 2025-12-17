@@ -18,17 +18,20 @@ This repository implements a fully reproducible pipeline for detecting deepfake 
 
 ---
 
-## 📁 Directory Structure
-deepfake-iot-detection/
-├── data/ # Input/output frame folders
-├── scripts/ # Frame extraction, augmentation
-├── models/ # CNN model, training and TFLite conversion
-├── demo/ # On-device inference (Pi, Jetson)
-├── results/ # Output metrics, predictions
-├── notebooks/ # Optional notebooks for experiments
+<h2>📁 Directory Structure</h2>
+
+<pre><code>deepfake-iot-detection/
+├── data/              # Input/output frame folders
+├── scripts/           # Frame extraction, augmentation
+├── models/            # CNN model, training and TFLite conversion
+├── demo/              # On-device inference (Pi, Jetson)
+├── results/           # Output metrics, predictions
+├── notebooks/         # Optional notebooks for experiments
 ├── README.md
 ├── requirements.txt
 └── requirements_pi.txt
+</code></pre>
+
 
 
 ---
