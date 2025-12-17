@@ -110,9 +110,7 @@ python demo/evaluate_on_device.py --model models/model_quant.tflite --testdir da
 All components are fully documented and executable under the same configuration. If you use this project in your work, please cite:
 
 @article{adeyosemanputra2025deepfakeiot,
-  title={Deepfake Facial Detection Using a Lightweight CNN for Enhancing IoT Biometric Security},
   author={Ade Yoseman Putra and Coauthors},
-  journal={Scopus Indexed Journal / IEEE Xplore (Submitted)},
   year={2025},
   url={https://github.com/adeyosemanputra-pu/deepfake-iot-detection}
 }
@@ -123,5 +121,5 @@ For issues or suggestions, open an issue or contact the repository maintainer vi
 
 📄 License
 This project is released under the MIT License. Dataset redistribution is not allowed; refer to the original dataset licenses.
-This project is released under the MIT License. Dataset redistribution is not allowed; refer to the original dataset licenses.
+
 
