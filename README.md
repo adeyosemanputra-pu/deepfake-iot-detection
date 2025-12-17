@@ -106,7 +106,7 @@ Inference latency (ms), memory usage (MB)
 python demo/evaluate_on_device.py --model models/model_quant.tflite --testdir data/test
 
 
-#install in PC @windows
+### Install in PC @ windows
 
 1. System Requirements
 
