@@ -84,8 +84,8 @@ Supports webcam capture and frame-by-frame inference.
 
 ## Setup Instructions (Colab)
 # Step 1: Clone the repository
-!git clone https://github.com/adeyosemanputra-pu/deepfake-iot-detection.git
-<br> %cd deepfake-iot-detection
+!git clone https://github.com/adeyosemanputra-pu/deepfake-iot-detection.git 
+%cd deepfake-iot-detection
 
 # Step 2: Install dependencies
 !pip install -r requirements.txt
