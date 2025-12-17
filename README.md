@@ -1,7 +1,7 @@
 # Deepfake IoT Detection — Lightweight CNN for Edge Biometric Security
 
-**Repository:** `https://github.com/yourprojectrepo/deepfake-iot-detection`  
-**Paper:** *Deepfake Facial Detection Using a Lightweight CNN for Enhancing IoT Biometric Security* (submit to IEEE/Scopus)
+**Repository:** `https://github.com/adeyosemanputra-pu/deepfake-iot-detection`  
+
 
 This repository provides a complete, reproducible pipeline for training, converting, deploying and evaluating a lightweight CNN deepfake detector on edge IoT hardware (Raspberry Pi 4B, Jetson Nano). The repo includes code, small example datasets, inference demo scripts and instructions to reproduce the results reported in the paper.
 
