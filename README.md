@@ -16,7 +16,7 @@ This repository contains the full pipeline for a lightweight Convolutional Neura
 ---
 
 ## <h2>📁 Directory Structure</h2>
-  <div class="directory-structure">
+<div class="directory-structure">
 deepfake-iot-detection/
 ├── data/                 # Input/output frame folders  
 ├── scripts/              # Frame extraction, augmentation  
@@ -84,7 +84,7 @@ Supports webcam capture and frame-by-frame inference.
 ## Setup Instructions (Colab)
 # Step 1: Clone the repository
 !git clone https://github.com/adeyosemanputra-pu/deepfake-iot-detection.git
-%cd deepfake-iot-detection
+<br> %cd deepfake-iot-detection
 
 # Step 2: Install dependencies
 !pip install -r requirements.txt
