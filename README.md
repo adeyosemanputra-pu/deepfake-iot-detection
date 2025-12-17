@@ -15,18 +15,19 @@ This repository contains the full pipeline for a lightweight Convolutional Neura
 
 ---
 
-## 📁 Directory Structure
-
+## <h2>📁 Directory Structure</h2>
+  <div class="directory-structure">
 deepfake-iot-detection/
-├── data/ # Input/output frame folders
-├── scripts/ # Frame extraction, augmentation
-├── models/ # CNN model, training and TFLite conversion
-├── demo/ # On-device inference (Pi, Jetson)
-├── results/ # Output metrics, predictions
-├── notebooks/ # Optional notebooks for experiments
-├── README.md
-├── requirements.txt
+├── data/                 # Input/output frame folders  
+├── scripts/              # Frame extraction, augmentation  
+├── models/               # CNN model, training and TFLite conversion  
+├── demo/                 # On-device inference (Pi, Jetson)  
+├── results/              # Output metrics, predictions  
+├── notebooks/            # Optional notebooks for experiments  
+├── README.md  
+├── requirements.txt  
 └── requirements_pi.txt
+  </div>
 
 
 ---
@@ -78,6 +79,19 @@ python demo/tflite_inference.py --model models/model.tflite --input data/frames/
 
 
 Supports webcam capture and frame-by-frame inference.
+
+
+## Setup Instructions (Colab)
+# Step 1: Clone the repository
+!git clone https://github.com/adeyosemanputra-pu/deepfake-iot-detection.git
+%cd deepfake-iot-detection
+
+# Step 2: Install dependencies
+!pip install -r requirements.txt
+
+# Step 3: Run example script (e.g., model training or demo inference)
+!python scripts/train_model.py  # Or your script to test
+
 
 📊 Evaluation Metrics
 
