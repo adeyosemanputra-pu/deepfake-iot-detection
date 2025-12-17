@@ -21,7 +21,7 @@ This repository contains the full pipeline for a lightweight Convolutional Neura
 ├── 📂 data/              → Input/output frame folders
 ├── 📂 scripts/           → Frame extraction, augmentation
 ├── 📂 models/            → CNN model, training and TFLite conversion
-├── 📂 demo/              → On-device inference (Pi, Jetson)
+├── 📂 demo/              → On-device inference (Pi, Jetson, for Google Colab)
 ├── 📂 results/           → Output metrics, predictions
 ├── 📂 notebooks/         → Optional notebooks for experiments
 │
