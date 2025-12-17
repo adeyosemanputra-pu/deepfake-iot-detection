@@ -3,7 +3,7 @@
 Lightweight CNN-based deepfake detector for IoT security.
 
 
-# 🧠 Deepfake Facial Detection for IoT Biometric Security
+# 🧠 Deepfake Facial Detection 
 
 This repository contains the full pipeline for a lightweight Convolutional Neural Network (CNN) designed to detect deepfake facial content, optimized for deployment in resource-constrained IoT environments such as Raspberry Pi and Jetson Nano. The model is trained using public datasets and converted to TensorFlow Lite for real-time edge inference.
 
