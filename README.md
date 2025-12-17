@@ -16,18 +16,7 @@ This repository contains the full pipeline for a lightweight Convolutional Neura
 ---
 
 ## <h2>📁 Directory Structure</h2>
-<div class="directory-structure">
-deepfake-iot-detection/
-├── data/                 # Input/output frame folders  
-├── scripts/              # Frame extraction, augmentation  
-├── models/               # CNN model, training and TFLite conversion  
-├── demo/                 # On-device inference (Pi, Jetson)  
-├── results/              # Output metrics, predictions  
-├── notebooks/            # Optional notebooks for experiments  
-├── README.md  
-├── requirements.txt  
-└── requirements_pi.txt
-  </div>
+<pre><code>## 📁 Directory Structure deepfake-iot-detection/ ├── data/ # Input/output frame folders ├── scripts/ # Frame extraction, augmentation ├── models/ # CNN model, training and TFLite conversion ├── demo/ # On-device inference (Pi, Jetson) ├── results/ # Output metrics, predictions ├── notebooks/ # Optional notebooks for experiments ├── README.md ├── requirements.txt └── requirements_pi.txt </code></pre>
 
 
 ---
