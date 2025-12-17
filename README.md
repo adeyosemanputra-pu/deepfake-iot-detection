@@ -105,6 +105,58 @@ Inference latency (ms), memory usage (MB)
 🧪 Run test set
 python demo/evaluate_on_device.py --model models/model_quant.tflite --testdir data/test
 
+
+#install in PC @windows
+
+1. System Requirements
+
+OS: Windows 10 or 11 (64-bit)
+
+Python: 3.8 or 3.9 (recommended)
+
+RAM: 8 GB or more
+
+GPU (optional): NVIDIA GPU with CUDA support (for faster training)
+
+🔧 2. Install Python
+
+If not already installed:
+
+Download and install Python from: https://www.python.org/downloads/
+
+During installation, check "Add Python to PATH".
+
+🧱 3. Create Virtual Environment (Recommended)
+
+Open Command Prompt (CMD) or PowerShell:
+
+python -m venv venv
+venv\Scripts\activate
+
+📦 4. Install Dependencies
+
+Make sure requirements.txt is in your current folder. Then run:
+
+pip install --upgrade pip
+pip install -r requirements.txt
+
+🗂 5. Run the Project
+Example: Frame Extraction from Video
+python scripts/extract_frames.py --video_path data/sample.mp4 --output_folder data/frames/
+
+Example: Model Training
+python models/train_model.py
+
+Example: On-device TFLite Inference (simulate on PC)
+python demo/tflite_inference.py --model models/model.tflite --input data/frames/frame_001.jpg
+
+💡 Notes
+
+Use Jupyter Notebooks in the notebooks/ folder if you prefer interactive experiments.
+
+Real-time webcam testing may require installing additional packages:
+
+pip install opencv-python-headless
 🔁 Reproducibility & Citation
 
 All components are fully documented and executable under the same configuration. If you use this project in your work, please cite:
